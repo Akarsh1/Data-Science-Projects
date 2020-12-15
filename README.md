@@ -10,13 +10,13 @@ The work is implemented on Jupyter notebook in Python programming language.
 
 This housing dataset contains 80 variables, Among them, 57 are categorical variables and 23 are numerical variables.
 
-###train.csv :
+### train.csv :
 This file contains 1460 rows.
 
-###test.csv:
+### test.csv:
 This file contains 1459 rows.
 
-###Xtrain.csv:
+### Xtrain.csv:
 This file contains scaled features for training.
 
 ### Description of variables is as follows: 
