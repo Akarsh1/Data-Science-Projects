@@ -35,15 +35,15 @@ Next, based on EDA, missing values are handled , categorical variables are encod
           
 ### 3. Feature Scaling and Selection :
 
-Since, the columns in the dataset contains values in different measuring units, therefore, min max scaler technique is used. Further, as the distribution is skewed, log transformation is used for converting the desired columns into gaussian distribution. Lasso Mpdel is used for selecting important variables that contributes in the final prediction.
+Since, the columns in the dataset contains values in different measuring units and skewed distribution, therefore, Power transformation technique is used to make the desired columns gaussian distribution. Lasso Model is used for selecting important variables that contributes in the final prediction.
 
 ### 4. Model implementation:
 
-Various models are implemented such as Linear Regression, SVM  and ensemble techniques such as Random Forest.
+Various models are implemented such as Linear Regression, SVM  and ensemble techniques such as Random Forest. Also, Hyper-parameter Tuning is applied for selected models.
 
 ## Result 
 
-SVM model shows the best performance amongst the implemented models. R2_score metric is used for evaluating various machine learning models.
-The SVM model  exhibits a R2_score of 88.43% without hyper-parameter tuning.
+Random Forest and SVM  model shows the best performance amongst the implemented models. R2_score metric is used for evaluating various machine learning models.
+The Linear Regression model exhibits a R2_score of 88.19 while Random Forest outputs a score of 89.61 .
 
    
